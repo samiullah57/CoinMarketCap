@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.825">
+<testcase classname="CoinMarket cap application functionality" name="Verify that in CoinMarket cap application user can able to collect the coins and compare after with the filtered coins." time="4.094">
+<failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'LAPTOP-15RBTEBO', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [25b1a7971cc8cc06819d2a1064a6a290, get {url=https://coinmarketcap.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anser\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57828/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 25b1a7971cc8cc06819d2a1064a6a290" type="org.openqa.selenium.WebDriverException"><![CDATA[When user launch the Coin cap application...................................failed
+And user clicks on ShowRows DropDown........................................skipped
+Then user Fetching the coins values and comparing the results using assert..skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-15RBTEBO', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b1a7971cc8cc06819d2a1064a6a290, get {url=https://coinmarketcap.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anser\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57828/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25b1a7971cc8cc06819d2a1064a6a290
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:327)
+	at stepDefinition.StepDefinitionClass.user_launch_the_Coin_cap_application(StepDefinitionClass.java:32)
+	at ✽.user launch the Coin cap application(file:///C:/Users/anser/eclipse-workspace/CoinMarketProject/src/test/java/Resources/featureFile.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
